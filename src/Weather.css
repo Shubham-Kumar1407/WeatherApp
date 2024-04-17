@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.weather-container {
+  max-width: 500px;
+  font-family: 'Oswald';
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  border: 3px solid #ccc;
+  outline: 1px solid #000;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 24px;
+  text-align: center;
+  color: aliceblue;
+  background: linear-gradient(to bottom, #1e002c,#330063, #ae00ff); /* Gradient background */
+}
+h1 {
+  font-family: 'Playfair Display';
+  background-image: linear-gradient(to right, #f94eff, #f9d423);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 40px;
+  color: transparent;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+.search-input {
+  padding: 10px;
+  width: calc(100% - 80px);
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin-bottom: 5px;
+}
